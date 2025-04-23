@@ -5,9 +5,65 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <header>
+      <h1>My Resume</h1>
+      <section id="about-me">
+        <img src="picture/Profile.jpg" alt="Handsome guy with glasses thumb up to you"/>
+        <h2>Name : กษิเดช มีลาภ, Nickname : เฟิร์ซ</h2>
+        <h2>Apply to Students</h2>
+      </section>
+    </header>
+    <nav>
+      <a href="https://github.com/663040641-0" target="_blank">Github links</a>
+      <a href="mailto:Kasidech.m@kkumail.com">Email</a>
+    </nav>
+    <main>
+      <section id="skill">
+        <h3>Skills</h3>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+        </ul>
+      </section>
+      <section id="education">
+        <table>
+          <caption>Education backgrounds</caption>
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Degree</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Teera school</th>
+              <td>Primary education</td>
+            </tr>
+            <tr>
+              <th>BURIRAM PITTHAYAKHOM</th>
+              <td>secondary education</td>
+            </tr>
+            <tr>
+              <th>Khon Kaen University</th>
+              <td>Bachelor Degrees</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </section>
+    </main>
+    <footer>
+      <h2>Cute video</h2>
+      <video src="picture/Cute-cow-dance.mp4" poster="picture/warning.webp" controls>
+        <p>Watch <a href="https://www.youtube.com/watch?v=xVWeRnStdSA">video on Youtube</a></p>
+      </video>
+    </footer>
+
   </body>
 </html>
